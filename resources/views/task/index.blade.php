@@ -3,7 +3,7 @@
     <form action="{{route('tasks.search')}}" method="get">
 
         <input type="text" name="inputSearch" placeholder="inputSearch">
-        <button type="submit">Search</button>
+        <button type="submit" class="btn-danger">Search</button>
     <table class="table table-hover table-dark">
         <thead>
         <tr>

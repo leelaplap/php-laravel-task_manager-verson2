@@ -19,7 +19,7 @@ class TaskController extends Controller
 
     public function index()
     {
-        $tasks = $this->task->paginate(1);
+        $tasks = $this->task->paginate(5);
         return view('task.index', compact('tasks'));
     }
 
@@ -50,6 +50,7 @@ class TaskController extends Controller
     public function delete($id)
     {
         $task = $this->task->findOrFail($id);
+        Storage::disk('public')->delete("$task->image");
         $task->delete();
         return redirect()->route('tasks.index');
     }
