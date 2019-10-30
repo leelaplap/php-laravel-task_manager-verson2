@@ -4,7 +4,6 @@
     <list default="true" id="c96bf3c0-8779-4fab-9fda-d0625e74c632" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/task/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/task/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,8 +146,17 @@
       <option name="presentableId" value="Default" />
       <updated>1572249854855</updated>
       <workItem from="1572249856197" duration="25672000" />
-      <workItem from="1572338149303" duration="2474000" />
+      <workItem from="1572338149303" duration="3350000" />
+      <workItem from="1572397148864" duration="1327000" />
     </task>
+    <task id="LOCAL-00001" summary="update delete image">
+      <created>1572340716546</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572340716547</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,5 +174,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update delete image" />
+    <option name="LAST_COMMIT_MESSAGE" value="update delete image" />
   </component>
 </project>

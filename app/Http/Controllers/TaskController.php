@@ -68,7 +68,7 @@ class TaskController extends Controller
         $task->content = $request->inputContent;
         $task->due_date = $request->due_date;
         if ($request->image){
-            File::delete($task->image);
+            Storage::disk('public')->delete("$task->image");
             $image= $request->file('image');
             $path = $image->store('images','public');
             $task->image= $path;
